@@ -1,0 +1,1 @@
+web: jekyll serve --watch --port $PORT

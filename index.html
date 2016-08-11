@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <section>
+    <h1>Getting started</h1>
+    <ul class="post-list">
+      {% for doc in site.start %}
+      <li><a class="post-link" href="{{ doc.url }}" title="{{ doc.title }}">{{ doc.title | escape }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section>
+    <h1>Guides</h1>
+    <ul class="post-list">
+      {% for doc in site.faq %}
+      <li><a class="post-link" href="{{ doc.url }}" title="{{ doc.title }}">{{ doc.title | escape }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section>
+    <h1>Command Line Interface User Manual</h1>
+    <ul class="post-list">
+      {% for doc in site.cli %}
+      <li><a class="post-link" href="{{ doc.url }}" title="{{ doc.title }}">{{ doc.title | escape }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+
+</div>
