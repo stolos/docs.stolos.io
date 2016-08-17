@@ -24,7 +24,7 @@ stolos login --stolos-url=https://yourcompany.stolos.io
 ### Example
 
 ```
-stolos login --stolos-url=https://sourcelair.stolos.io
+$ stolos login --stolos-url=https://sourcelair.stolos.io
 Username: paris
 Password (typing will be hidden):
 Authentication successful.
