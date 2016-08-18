@@ -50,7 +50,7 @@ python -m ensurepip
 Run the following command in the Cygwin terminal to install [**Docker Compose**](https://docs.docker.com/compose/) for Windows:
 
 ```
-pip install https://cf979153cd14525475d4-f860d1dda29fa1b9bcbf643d12472ae9.ssl.cf1.rackcdn.com/stolosctl-0.1.zip#egg=stolos
+wget https://github.com/docker/compose/releases/download/1.8.0/docker-compose-Windows-x86_64.exe -O /usr/bin/docker-compose
 ```
 
 ### 4. Install Stolos
