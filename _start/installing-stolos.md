@@ -28,7 +28,7 @@ pip install https://cf979153cd14525475d4-f860d1dda29fa1b9bcbf643d12472ae9.ssl.cf
 
 ## Windows
 
-### 1. Install utilities via Cygwin
+### 1. Install Cygwin along with utilities
 First thing you need to do to install and work with Stolos on Windows is to setup [**Cygwin**](https://cygwin.com/) along with on your machine, along with the utilities needed to run Stolos. To do this follow this steps
 
 1. Download the 64-bit version of Cygwin from [https://cygwin.com/install.html](https://cygwin.com/install.html)
