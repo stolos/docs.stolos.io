@@ -1,5 +1,5 @@
 ---
-title: Start working on a new feature
+title: Work on a new feature
 layout: page
 ---
 
