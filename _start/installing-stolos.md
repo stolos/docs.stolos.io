@@ -3,7 +3,7 @@ title: Installing Stolos
 layout: page
 ---
 
-This guide will help you install the Stolos Command Line Interface on your local machine, according to your operating system. Stolos works on all major operating systems (OS X, Windows and Linux).
+This guide will help you install the Stolos Command Line Interface on your local machine, according to your operating system. Stolos works on all major operating systems: [OS X](#os-x), [Windows](#windows) and [Linux](#linux).
 
 ## OS X
 
@@ -28,10 +28,10 @@ pip install https://cf979153cd14525475d4-f860d1dda29fa1b9bcbf643d12472ae9.ssl.cf
 
 ## Windows
 
-### 1. Set up Cygwin
-First thing you need to do to install and work with Stolos on Windows is to setup [**Cygwin**](https://cygwin.com/) on your machine. To do this follow this steps
+### 1. Install utilities via Cygwin
+First thing you need to do to install and work with Stolos on Windows is to setup [**Cygwin**](https://cygwin.com/) along with on your machine, along with the utilities needed to run Stolos. To do this follow this steps
 
-1. Download the 64-bit version of Cygwin from https://cygwin.com/install.html
+1. Download the 64-bit version of Cygwin from [https://cygwin.com/install.html](https://cygwin.com/install.html)
 2. Run `setup-x86_64.exe`
 3. Install the following:
     - `openssh` from **Net**
@@ -71,7 +71,7 @@ To do this run the following command in your terminal:
 wget https://cf979153cd14525475d4-f860d1dda29fa1b9bcbf643d12472ae9.ssl.cf1.rackcdn.com/unison/unison-2.48.3-4.02 -O /usr/local/bin/unison
 ```
 
-## 2. Install Stolos
+### 2. Install Stolos
 
 Run the following command in your terminal to install the Stolos Command Line Interface:
 
