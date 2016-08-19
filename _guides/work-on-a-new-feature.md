@@ -9,7 +9,7 @@ Stolos makes it extremely easy to start working on a new feature with the least 
 2. **the traditional way** - reusing your existing project
 
 ## The Stolos way
-Working on a new feature the Stolos way, means having a dedicated and disposable development environment for this feature. The benefits of this method is:
+Working on a new feature the Stolos way, means having a dedicated and disposable development environment for this feature. The benefits of this method are:
 
 1. you have a clean slate for work
 2. you don't have to switch between Git branches
