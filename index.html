@@ -16,7 +16,7 @@ layout: default
   <section>
     <h1>Guides</h1>
     <ul class="post-list">
-      {% for doc in site.faq %}
+      {% for doc in site.guides %}
       <li><a class="post-link" href="{{ doc.url }}" title="{{ doc.title }}">{{ doc.title | escape }}</a></li>
       {% endfor %}
     </ul>
