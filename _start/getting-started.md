@@ -33,5 +33,22 @@ Password (typing will be hidden):
 Authentication successful.
 ```
 
-## 4. Create your first project
+## 4. Reset your password
+Next you have to reset your password and set one of your choice. To do this run the following command in your terminal
+
+```
+stolos password
+```
+
+### Example
+
+```
+$ stolos password
+Current password (typing will be hidden):
+New password (typing will be hidden):
+Repeat for confirmation:
+Password successfully updated.
+```
+
+## 5. Create your first project
 Now you are ready to go. You can use your company's Stolos stacks and start working on projects based on them!
