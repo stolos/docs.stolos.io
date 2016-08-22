@@ -9,12 +9,17 @@ This guide will help you install the Stolos Command Line Interface on your local
 
 ### 1. Install Unison
 
-Install [**Unison**](https://www.cis.upenn.edu/~bcpierce/unison/) via [**Homebrew**](http://brew.sh/),  to enable the real-time file syncing feature of Stolos.
+Install [**Unison**](https://www.cis.upenn.edu/~bcpierce/unison/) to enable the real-time file syncing feature of Stolos. We propose installing Unison via [**Homebrew**](http://brew.sh/).
 
-To do this run the following command in your terminal:
+If you do not have Homebrew installed on your machine, run the following command in your terminal to install it
 
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)
+```
+
+To install Unison via Homebrew run the following command in your terminal:
+
+```
 brew install unison
 ```
 
@@ -29,6 +34,7 @@ pip install https://cf979153cd14525475d4-f860d1dda29fa1b9bcbf643d12472ae9.ssl.cf
 ## Windows
 
 ### 1. Install Cygwin along with dependencies
+
 First thing you need to do to install and work with Stolos on Windows is to setup [**Cygwin**](https://cygwin.com/) along with on your machine, along with the utilities needed to run Stolos. To do this follow this steps
 
 1. Download the 64-bit version of Cygwin from [https://cygwin.com/install.html](https://cygwin.com/install.html)
@@ -40,6 +46,7 @@ First thing you need to do to install and work with Stolos on Windows is to setu
     - `wget` from **Web**
 
 ### 2. Install pip
+
 Run the following command in the Cygwin terminal to install [**pip**](https://pip.pypa.io/):
 
 ```
@@ -47,6 +54,7 @@ python -m ensurepip
 ```
 
 ### 3. Install Docker Compose for Windows
+
 Run the following command in the Cygwin terminal to install [**Docker Compose**](https://docs.docker.com/compose/) for Windows:
 
 ```
@@ -54,6 +62,7 @@ wget https://github.com/docker/compose/releases/download/1.8.0/docker-compose-Wi
 ```
 
 ### 4. Install Stolos
+
 Run the following command in the Cygwin terminal to install the Stolos Command Line Interface:
 
 ```
@@ -63,6 +72,7 @@ pip install https://cf979153cd14525475d4-f860d1dda29fa1b9bcbf643d12472ae9.ssl.cf
 ## Linux
 
 ### 1. Install Unison
+
 Install [**Unison**](https://www.cis.upenn.edu/~bcpierce/unison/) to enable the real-time file syncing feature of Stolos.
 
 To do this run the following command in your terminal:
