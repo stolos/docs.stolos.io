@@ -36,13 +36,13 @@ Project "project" is ready! Change directory with "cd testing-project" and run "
 
 ### Step 3 - Start your testing project's processes
 
-Last you have to start your testing project's processes by getting inside your project's directory and running `stolos up` in your terminal.
+Last you have to start your testing project's processes by getting inside your project's directory and running `stolos up -d` in your terminal. Also by using the `-d` flag, all processes are being run in the background, so you don't have to occupy your terminal for this.
 
 #### Example
 
 ```
 $ cd testing-project
-$ stolos up
+$ stolos up -d
 ```
 
 Now you are ready to share your project's Public URL with your colleagues and enjoy easier and faster testing.
