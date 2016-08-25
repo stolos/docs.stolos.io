@@ -51,4 +51,4 @@ Password successfully updated.
 ```
 
 ## 5. Create your first project
-Now you are ready to go. You can use your company's Stolos stacks and start working on projects based on them!
+Now you are ready to go. You can use your company's Stolos stacks and [create your first project](/guides/creating-your-first-project/)!
