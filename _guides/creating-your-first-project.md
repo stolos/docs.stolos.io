@@ -60,9 +60,11 @@ web_1      | Logs here...
 
 ## Step 4 - Start working
 
-Now you are ready to start working on your first project! Open and edit any file you would like with the editor of your choice (saving your file will upload it automatically to Stolos!).
+Now you are ready to start working on your first project! Open and edit any file you would like with the editor of your choice.
 
 To view your application in your web browser, just run the [`stolos launch`](/cli/launch/) command in your terminal.
+
+**Did you know?** Saving your file will upload it automatically to Stolos! This means that the public URL of your application will always reflect the latest version of your files, as you save them!
 
 ### Example
 
