@@ -37,7 +37,7 @@ $ git clone git@github.com:company/second-service
 
 Next, launch all of your project's services by running the [`stolos up`](/cli/up/) command in your terminal. This will launch all Docker containers needed to run your project on Stolos and will make sure to sync all your local files with Stolos in real time and vice versa.
 
-**Attention!** To ensure your files are synced with Stolos you should either have [`stolos up`](/cli/up/) running or run [`stolos sync`](/cli/sync/) manually.
+**Attention!** Keep [`stolos up`](/cli/up/) running in order to ensure your files are synced with Stolos. Otherwise, you can use the [`stolos sync`](/cli/sync/) command manually.
 
 ### Example
 
