@@ -3,9 +3,11 @@ layout: default
 ---
 
 <div class="home">
-
+	<p>Welcome to the documentation of the Stolos — the managed, hosted development environments for your company that work with your local tools.</p>
+  <p>This documentation website covers everything from getting started to how to integrate Stolos into your workflow.</p>
   <section>
     <h1>Start</h1>
+    <p>There is a lot in those docs. If you don't know where to start, then take a look at these artickes:</p>
     <ul class="post-list">
       {% for doc in site.start %}
       <li><a class="post-link" href="{{ doc.url }}" title="{{ doc.title }}">{{ doc.title | escape }}</a></li>
@@ -15,6 +17,7 @@ layout: default
 
   <section>
     <h1>Guides</h1>
+    <p>Learn how to integrate Stolos into your workflow and skyrocket your productivity.</p>
     <ul class="post-list">
       {% for doc in site.guides %}
       <li><a class="post-link" href="{{ doc.url }}" title="{{ doc.title }}">{{ doc.title | escape }}</a></li>
@@ -23,7 +26,9 @@ layout: default
   </section>
 
   <section>
-    <h1>Command Line Interface User Manual</h1>
+    <h1>Command Line Interface</h1>
+    <p>Become a Stolos pro by learning all the commands of Stolos. The following articles cover all the functionality provided by the command line interface of Stolos.</p>
+    <h2>Commands</h2>
     <ul class="post-list">
       {% for doc in site.cli %}
       <li><a class="post-link" href="{{ doc.url }}" title="{{ doc.title }}">{{ doc.title | escape }}</a></li>
