@@ -9,7 +9,6 @@ This guide will help you install the Stolos Command Line Interface on your local
 ## System requirements
 
 - 64-bit architecture operating system
-- 4GB of RAM
 
 ## OS X
 
