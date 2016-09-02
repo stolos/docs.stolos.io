@@ -3,7 +3,12 @@ title: Installing Stolos
 layout: page
 ---
 
-This guide will help you install the Stolos Command Line Interface on your local machine, according to your operating system. Stolos works on all major operating systems: [OS X](#os-x), [Windows](#windows) and [Linux](#linux).
+This guide will help you install the Stolos Command Line Interface on your local machine, according to your operating system. Stolos works on all major operating systems ([OS X](#os-x), [Windows](#windows) and [Linux](#linux)).
+
+## System requirements
+
+- 64-bit architecture operating system
+- 4GB of RAM
 
 ## OS X
 
