@@ -1,6 +1,7 @@
 ---
 title: Installing Stolos
 layout: page
+permalink: /start/installing-stolos
 ---
 
 This guide will help you install the Stolos Command Line Interface on your local machine, according to your operating system. Stolos works on all major operating systems ([OS X](#os-x), [Windows](#windows) and [Linux](#linux)).
