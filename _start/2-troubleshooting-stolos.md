@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting stolos
+title: Troubleshooting Stolos
 layout: page
 permalink: /start/troubleshooting-stolos
 ---
@@ -13,8 +13,11 @@ Since your services with stolos will run in a Unix environment, you might encoun
 #### Identifying the problem
 If execution permission of a file is required in one of your services, you will notice that `stolos up` command will not be able to successfully start your services. Search your logs for something like `filename: Permission denied`.  
 For example, in the following case, `web` service fails to start due to permission issues with `manage.py`:
->web_1      | ./manage.py runserver 0.0.0.0:8000  
->web_1      | make: execvp: ./manage.py: Permission denied
+
+```
+web_1      | ./manage.py runserver 0.0.0.0:8000
+web_1      | make: execvp: ./manage.py: Permission denied
+```
 
 #### Workaround
 To change the permissions of a file you have to run something like:  
