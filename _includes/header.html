@@ -1,0 +1,13 @@
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <span class="navbar-brand">
+        <a href="/">Stolos docs</a>
+        {% if layout.collection %}
+        /
+        <a href="{{ layout.collection_link }}">{{ layout.collection }}</a>
+        {% endif %}
+      </span>
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>

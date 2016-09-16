@@ -1,6 +1,6 @@
 ---
 title: Testing with Stolos
-layout: page
+layout: guides_page
 ---
 
 Stolos makes it extremely easy to let others take a look on and test what you are working on, without needing any central staging or testing server.

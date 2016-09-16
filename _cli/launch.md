@@ -1,6 +1,6 @@
 ---
 title: launch
-layout: page
+layout: cli_page
 ---
 
 Open the public URL of the current project.

@@ -1,6 +1,6 @@
 ---
 title: projects list
-layout: page
+layout: cli_page
 ---
 
 List your projects.

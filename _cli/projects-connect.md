@@ -1,6 +1,6 @@
 ---
 title: projects connect
-layout: page
+layout: cli_page
 ---
 
 Connect the current directory to an existing Stolos project.

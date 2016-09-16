@@ -8,6 +8,10 @@ url: "http://docs.stolos.io"
 # Build settings
 markdown: kramdown
 
+kramdown:
+  auto_ids: true
+  input: GFM
+
 collections:
   cli:
     permalink: /cli/:path/

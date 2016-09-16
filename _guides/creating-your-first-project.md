@@ -1,6 +1,6 @@
 ---
 title: Creating your first project
-layout: page
+layout: guides_page
 ---
 
 After setting up Stolos on your computer you are ready to create your first project!

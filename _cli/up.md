@@ -1,6 +1,6 @@
 ---
 title: up
-layout: page
+layout: cli_page
 ---
 
 Run all your services and sync your files.

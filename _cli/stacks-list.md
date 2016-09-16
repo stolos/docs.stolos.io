@@ -1,6 +1,6 @@
 ---
 title: stacks list
-layout: page
+layout: cli_page
 ---
 
 List your stacks.
