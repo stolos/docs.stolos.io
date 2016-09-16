@@ -3,20 +3,23 @@ layout: default
 ---
 
 <div class="home">
-	<p>Welcome to the documentation of the Stolos — the managed, hosted development environments for your company that work with your local tools.</p>
-  <p>This documentation website covers everything from getting started to how to integrate Stolos into your workflow.</p>
+  <h1 class="website-title">Stolos Documentation</h1>
+	<p>Welcome to the documentation of the Stolos — the remote development environments that work with your local tools.</p>
   <section>
-    <h1>Start</h1>
+    <h2>Overview</h2>
+    <p>This documentation website covers everything from getting started to how to integrate Stolos into your workflow.</p>
     <p>There is a lot in those docs. If you don't know where to start, then take a look at these artickes:</p>
     <ul class="post-list">
-      {% for doc in site.start %}
-      <li><a class="post-link" href="{{ doc.url }}" title="{{ doc.title }}">{{ doc.title | escape }}</a></li>
-      {% endfor %}
+      <li><span class="article-description">First things first. Let's</span><em> <a class="post-link" href="/install/" title="Install Stolos">Install Stolos</a></em>.</li>
+      <li><span class="article-description">New to Stolos? Have a look at</span><em> <a class="post-link" href="/getting-started/" title="Getting started">Getting started</a></em>.</li>
+      <li><span class="article-description">Want to see what you can achieve with Stolos? Head straight to our</span><em> <a class="post-link" href="/guides/" title="Guides">Guides</a></em>.</li>
+      <li><span class="article-description">Questions about a command? Take a look at the</span><em> <a class="post-link" href="/cli/" title="CLI documentation">CLI documentation</a></em>.</li>
+      <li><span class="article-description">Stuck? Feel free to check out</span><em> <a class="post-link" href="/troubleshooting/" title="Troubleshooting">Troubleshooting</a></em>.</li>
     </ul>
   </section>
 
   <section>
-    <h1>Guides</h1>
+    <h2>Guides</h2>
     <p>Learn how to integrate Stolos into your workflow and skyrocket your productivity.</p>
     <ul class="post-list">
       {% for doc in site.guides %}
@@ -26,7 +29,7 @@ layout: default
   </section>
 
   <section>
-    <h1>Command Line Interface</h1>
+    <h2>Command Line Interface</h2>
     <p>Become a Stolos pro by learning all the commands of Stolos. The following articles cover all the functionality provided by the command line interface of Stolos.</p>
     <h2>Commands</h2>
     <ul class="post-list">
