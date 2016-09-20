@@ -1,11 +1,3 @@
----
-title: Troubleshooting Stolos
-layout: page
-permalink: /troubleshooting/
-redirect_from:
-  - /start/troubleshooting-stolos
----
-
 This article will help you with any Stolos related problems you might encounter. It includes known issues, special cases and workarounds.
 
 ## Windows issues

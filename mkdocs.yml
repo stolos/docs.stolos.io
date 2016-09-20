@@ -1,0 +1,24 @@
+site_name: Stolos docs
+pages:
+  - Home: index.md
+  - Install: install.md
+  - Getting started: getting-started.md
+  - Troubleshooting: troubleshooting.md
+  - Guides:
+    - Creating your first project: guides/creating-your-first-project.md
+    - Testing with Stolos: guides/testing-with-stolos.md
+    - Work on a new feature or bug dix: guides/work-on-a-new-feature-or-bug-fix.md
+  - CLI documentation:
+    - compose: cli/compose.md
+    - info: cli/info.md
+    - launch: cli/launch.md
+    - login: cli/login.md
+    - projects connect: cli/projects-connect.md
+    - projects create: cli/projects-create.md
+    - projects delete: cli/projects-delete.md
+    - projects list: cli/projects-list.md
+    - stacks list: cli/stacks-list.md
+    - sync: cli/sync.md
+    - up: cli/up.md
+theme: readthedocs
+extra_css: [css/main.css]

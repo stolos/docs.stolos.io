@@ -1,11 +1,3 @@
----
-title: Getting started
-layout: page
-permalink: /getting-started/
-redirect_from:
-  - /start/getting-started
----
-
 This article will help you get started with Stolos inside your company in a few simple steps!
 
 ## 1. Install Stolos
