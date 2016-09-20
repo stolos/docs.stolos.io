@@ -1,6 +1,6 @@
 ---
 title: projects create
-layout: page
+layout: cli_page
 ---
 
 Create a new Stolos project.

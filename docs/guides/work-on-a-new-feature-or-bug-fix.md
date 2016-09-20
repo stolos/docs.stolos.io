@@ -1,6 +1,6 @@
 ---
 title: Work on a new feature or bug fix
-layout: page
+layout: guides_page
 ---
 
 Stolos makes it extremely easy to start working on a new feature or bug fix with the least friction possible. There are two options on how to do this:

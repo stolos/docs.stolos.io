@@ -1,6 +1,6 @@
 ---
 title: info
-layout: page
+layout: cli_page
 ---
 
 Get information about your current project.

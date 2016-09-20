@@ -1,1 +1,1 @@
-web: jekyll serve --watch --port $PORT
+web: mkdocs serve --livereload -a localhost:$PORT

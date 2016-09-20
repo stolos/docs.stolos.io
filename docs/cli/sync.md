@@ -1,6 +1,6 @@
 ---
 title: sync
-layout: page
+layout: cli_page
 ---
 
 Sync your files.

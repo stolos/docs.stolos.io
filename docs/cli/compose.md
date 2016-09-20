@@ -1,6 +1,6 @@
 ---
 title: compose
-layout: page
+layout: cli_page
 ---
 
 Run Docker Compose commands in Stolos.
