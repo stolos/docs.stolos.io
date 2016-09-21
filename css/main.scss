@@ -65,8 +65,8 @@ section {
 }
 
 section:first-of-type {
-    border-top: 0;
-    padding-top: 0;
+  border-top: 0;
+  padding-top: 0;
 }
 
 strong {
@@ -76,9 +76,70 @@ strong {
 .breadcrumbs {
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .breadcrumbs a {
   color: #4b4f5c;
+}
+
+.site-wrapper {
+  padding: 5px 30px 0;
+  margin-left: 260px;
+}
+
+.site-wrapper .navbar {
+  background-color: transparent;
+  border: none;
+}
+
+.sidebar-wrapper {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  padding: 20px 20px 15px;
+  width: 260px;
+  overflow: auto;
+  background: #f7f8f9;
+  z-index: 1000;
+  border-right: 1px solid #e5e9ed;
+}
+
+.sidebar-wrapper ul {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-wrapper li {
+  list-style-type: none;
+}
+
+.sidebar-wrapper h3 {
+  display: block;
+  margin: 20px 0;
+  color: #000;
+  font-weight: 500;
+  padding: 0;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.sidebar-wrapper .brand {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.sidebar-wrapper a {
+  color: #4b4f5c;
+  text-decoration: none;
+}
+
+.sidebar-wrapper li {
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+.sidebar-wrapper a:hover {
+  text-decoration: underline;
 }

@@ -1,0 +1,25 @@
+<div class="brand">Stolos</div>
+
+<div class="article-list">
+
+	<ul class="top-level-articles" >
+    <li><a href="/">Home</a></li>
+    <li><a href="/install/">Installing</a></li>
+    <li><a href="/getting-started/">Getting started</a></li>
+    <li><a href="/troubleshooting/">Troubleshooting</a></li>
+	</ul>
+
+  <h3 class="category-title">Guides</h3>
+  <ul class="category-articles">
+    {% for doc in site.guides %}
+  	<li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h3 class="category-title">CLI</h3>
+  <ul class="category-articles">
+    {% for doc in site.cli %}
+    <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

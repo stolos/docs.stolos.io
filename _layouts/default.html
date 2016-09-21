@@ -6,15 +6,20 @@
   {% include head.html %}
 
   <body>
-    <div class="site-wrapper">
-    {% include header.html %}
-      <main>
-        <section>
-          <div class="container">
-            {{ content }}
-          </div>
-        </section>
-      </main>
+    <div class="container-fluid">
+      <div class="sidebar-wrapper">
+        {% include sidebar.html %}
+      </div>
+      <div class="site-wrapper">
+        {% include header.html %}
+        <main>
+          <section>
+            <div class="container">
+              {{ content }}
+            </div>
+          </section>
+        </main>
+      </div>
     </div>
   </body>
 </html>
