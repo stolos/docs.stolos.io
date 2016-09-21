@@ -143,3 +143,15 @@ strong {
 .sidebar-wrapper a:hover {
   text-decoration: underline;
 }
+
+// Hide sidebar on mobile devices
+@media (max-width: 768px) {
+  .sidebar-wrapper {
+    display: none;
+  }
+
+  .site-wrapper {
+    padding: 5px 30px 0;
+    margin-left: 0;
+  }
+}
