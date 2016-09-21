@@ -1,0 +1,14 @@
+{% if include.article %}
+{% assign path = include.article.path %}
+{% assign url = include.article.url %}
+{% assign title = include.article.title %}
+{% else %}
+{% assign path = include.path %}
+{% assign url = include.url %}
+{% assign title = include.title %}
+{% endif %}
+
+
+<li {% if page.path == path %}class="active"{% endif %}>
+  <a href="{{ url }}">{{ title }}</a>
+</li>

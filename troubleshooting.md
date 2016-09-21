@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting Stolos
+title: Troubleshooting
 layout: page
 permalink: /troubleshooting/
 redirect_from:

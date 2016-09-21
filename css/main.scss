@@ -85,7 +85,7 @@ strong {
 
 .site-wrapper {
   padding: 5px 30px 0;
-  margin-left: 260px;
+  margin-left: 280px;
 }
 
 .site-wrapper .navbar {
@@ -99,7 +99,7 @@ strong {
   bottom: 0;
   top: 0;
   padding: 20px 20px 15px;
-  width: 260px;
+  width: 280px;
   overflow: auto;
   background: #f7f8f9;
   z-index: 1000;
@@ -130,18 +130,22 @@ strong {
   margin-bottom: 30px;
 }
 
-.sidebar-wrapper a {
-  color: #4b4f5c;
-  text-decoration: none;
-}
-
 .sidebar-wrapper li {
   line-height: 1.7;
   font-size: 16px;
 }
 
+.sidebar-wrapper a {
+  color: #4b4f5c;
+  text-decoration: none;
+}
+
 .sidebar-wrapper a:hover {
   text-decoration: underline;
+}
+
+.sidebar-wrapper .active a {
+  font-weight: 600;
 }
 
 // Hide sidebar on mobile devices

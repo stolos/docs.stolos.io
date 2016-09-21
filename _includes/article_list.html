@@ -1,0 +1,5 @@
+<ul class="article-list">
+  {% for article in include.articles %}
+  {% include article_list_item.html article=article %}
+  {% endfor %}
+</ul>

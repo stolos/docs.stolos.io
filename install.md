@@ -1,5 +1,5 @@
 ---
-title: Installing Stolos
+title: Install
 layout: page
 permalink: /install/
 redirect_from:
