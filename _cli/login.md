@@ -1,6 +1,6 @@
 ---
 title: login
-layout: page
+layout: cli_page
 ---
 
 Simple command that logs you into Stolos, using your username and password. Your access token is being stored in `~/.stolos/config.yaml`.

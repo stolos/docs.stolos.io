@@ -1,6 +1,6 @@
 ---
 title: projects delete
-layout: page
+layout: cli_page
 ---
 
 Delete a Stolos project.

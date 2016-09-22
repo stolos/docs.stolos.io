@@ -7,7 +7,10 @@ url: "http://docs.stolos.io"
 
 # Build settings
 markdown: kramdown
-theme: minima
+
+kramdown:
+  auto_ids: true
+  input: GFM
 
 collections:
   cli:
@@ -16,6 +19,6 @@ collections:
   guides:
     permalink: /guides/:path/
     output: true
-  start:
-    permalink: /start/:path
-    output: true
+
+gems:
+  - jekyll-redirect-from

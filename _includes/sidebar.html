@@ -1,0 +1,18 @@
+<div class="brand">Stolos</div>
+
+<div class="article-list-container">
+
+	<ul class="article-list" >
+    {% include article_list_item.html path="index.html" title="Home" url="/" %}
+    {% include article_list_item.html path="install.md" title="Install" url="/install/" %}
+    {% include article_list_item.html path="getting-started.md" title="Getting started" url="/getting-started/" %}
+    {% include article_list_item.html path="troubleshooting.md" title="Troubleshooting" url="/troubleshooting/" %}
+
+	</ul>
+
+  <h3 class="category-title">Guides</h3>
+  {% include article_list.html articles=site.guides %}
+
+  <h3 class="category-title">CLI</h3>
+  {% include article_list.html articles=site.cli %}
+</div>
