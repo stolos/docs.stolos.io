@@ -20,5 +20,6 @@ Options:
 ## Example
 
 ```
-Deleting SSH public key "f9c6c116-a9ae-410a-bf27-2c1a8adf0a30"...       Okay.
+$ stolos keys delete 291f2a1a-2feb-43d8-9111-d8cd111ec056                                                      
+Deleting SSH public key "291f2a1a-2feb-43d8-9111-d8cd111ec056"...    Okay.
 ```
