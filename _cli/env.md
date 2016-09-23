@@ -3,14 +3,14 @@ title: env
 layout: page
 ---
 
-Print your Stolos environment
+Display the commands to set up the environment for the Docker client.
 
 ## Usage
 
 ```
 Usage: stolos env [OPTIONS]
 
-  Print your Stolos environment
+  Display the commands to set up the environment for the Docker client
 
 Options:
   --shell TEXT  Give the shell of your choice
