@@ -3,7 +3,7 @@ email: support@sourcelair.com
 description: > # this means to ignore newlines until "baseurl:"
   Documentation of Stolos.io.
 baseurl: ""
-url: "http://docs.stolos.io"
+url: "https://docs.stolos.io"
 
 # Build settings
 markdown: kramdown
@@ -11,6 +11,8 @@ markdown: kramdown
 kramdown:
   auto_ids: true
   input: GFM
+  math_engine: mathjax
+  hard_wrap: false
 
 collections:
   cli:
@@ -22,3 +24,9 @@ collections:
 
 gems:
   - jekyll-redirect-from
+
+lsi: false
+safe: true
+highlighter: rouge
+gist:
+  noscript: false
