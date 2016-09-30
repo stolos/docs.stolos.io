@@ -36,3 +36,33 @@ If you attempt to run `stolos compose run ...` or `stolos compose exec ...` you 
 
 #### Workaround
 As the error message suggests, add the `-d` flag on the command to run in detached mode.
+
+## Node issues
+
+### Installing libraries
+Node projects save their dependencies inside the codebase. This means that even if the Dockerfile makes sure the `npm install` command runs, since the code is mounted inside Stolos projects, the Node installations will not be present.
+
+#### Workaround
+In order to make sure the Node dependencies are installed in your project, you should follow the following commands:
+
+{% highlight bash %}
+# First, fetch your code
+
+# Then, create a new project
+stolos projects create company/stack .
+
+# Sync your files once, so that your package.json file lands in the server
+stolos sync --oneoff
+
+# Install dependencies - see below for the --unsafe-perm flag
+stolos compose run --rm web npm install --unsafe-perm
+
+# Start your project
+stolos up
+{% endhighlight %}
+
+### Node warning: `npm cannot run in wd`
+If you see the message above while installing dependencies, it means that one or more of your dependencies has a pre/post installation script. Since Stolos containers run as root, you need to instruct npm to run those scripts nevertheless.
+
+### Workaround
+When installing Node dependencies, remember to use the `npm install --unsafe-perm` flag. 
