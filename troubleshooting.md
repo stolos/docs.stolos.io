@@ -9,6 +9,7 @@ redirect_from:
 This article will help you with any Stolos related problems you might encounter. It includes known issues, special cases and workarounds.
 
 ## Windows issues
+
 ### Execute permission is not supported in Windows
 Since your services with stolos will run in a Unix environment, you might encounter cases where the execute permission has to be set.
 
@@ -28,6 +29,7 @@ This will add execute permission to `filename` file.
 In the example above, `manage.py` of `web` service was not executable so it was fixed by running `stolos compose run -d web chmod +x manage.py`
 
 ### Interactive mode of docker compose is not supported in Windows
+
 #### Identifying the problem
 If you attempt to run `stolos compose run ...` or `stolos compose exec ...` you will notice that the command will fail with the following message:  
 `Interactive mode is not yet supported on Windows. Please pass the -d flag when using 'docker-compose exec'.`
