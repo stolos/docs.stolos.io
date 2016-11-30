@@ -1,6 +1,8 @@
 ---
-title: launch
+title: open
 layout: cli_page
+redirect_from:
+  - /cli/launch/
 ---
 
 Open the public URL of the current project.
@@ -19,6 +21,6 @@ Options:
 
 ## Example
 ```
-$ stolos launch
+$ stolos open
 Opening http://sourcelair-stolos-akalipetis-zzqouw.sourcelair.stolos.io...`
 ```
