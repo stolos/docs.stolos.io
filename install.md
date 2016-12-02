@@ -35,7 +35,7 @@ brew install unison
 Run the following command in your terminal to install the Stolos Command Line Interface:
 
 ```
-pip install https://cf979153cd14525475d4-f860d1dda29fa1b9bcbf643d12472ae9.ssl.cf1.rackcdn.com/stolosctl-0.1.zip#egg=stolos[compose]
+pip install https://cf979153cd14525475d4-f860d1dda29fa1b9bcbf643d12472ae9.ssl.cf1.rackcdn.com/stolosctl-0.2.zip#egg=stolos[compose]
 ```
 
 ## Windows
@@ -73,7 +73,7 @@ wget https://github.com/docker/compose/releases/download/1.8.0/docker-compose-Wi
 Run the following command in the Cygwin terminal to install the Stolos Command Line Interface:
 
 ```
-pip install https://cf979153cd14525475d4-f860d1dda29fa1b9bcbf643d12472ae9.ssl.cf1.rackcdn.com/stolosctl-0.1.zip#egg=stolos
+pip install https://cf979153cd14525475d4-f860d1dda29fa1b9bcbf643d12472ae9.ssl.cf1.rackcdn.com/stolosctl-0.2.zip#egg=stolos
 ```
 
 ## Linux
@@ -93,7 +93,7 @@ wget https://cf979153cd14525475d4-f860d1dda29fa1b9bcbf643d12472ae9.ssl.cf1.rackc
 Run the following command in your terminal to install the Stolos Command Line Interface:
 
 ```
-pip install https://cf979153cd14525475d4-f860d1dda29fa1b9bcbf643d12472ae9.ssl.cf1.rackcdn.com/stolosctl-0.1.zip#egg=stolos[compose]
+pip install https://cf979153cd14525475d4-f860d1dda29fa1b9bcbf643d12472ae9.ssl.cf1.rackcdn.com/stolosctl-0.2.zip#egg=stolos[compose]
 ```
 
 After the installation procedure completes you will be able to use the `stolos` command in your terminal.
