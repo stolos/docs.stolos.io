@@ -13,9 +13,13 @@ Usage: stolos projects create [OPTIONS] STACK PROJECT_DIRECTORY
   Create a new Stolos project
 
 Options:
-  --public-url TEXT  The public URL of your project, defaults to random hex
-  --stolos-url TEXT  The URL of the Stolos server to use, if not the default
-  --help             Show this message and exit.
+  --public-url TEXT               The public URL of your project, defaults to
+                                  random hex
+  --subdomains / --no-subdomains  If this project should use subdomains for
+                                  services, defaults to false
+  --stolos-url TEXT               The URL of the Stolos server to use, if not
+                                  the default
+  --help                          Show this message and exit.
 ```
 
 ## Example
