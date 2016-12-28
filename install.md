@@ -82,10 +82,11 @@ pip install https://cf979153cd14525475d4-f860d1dda29fa1b9bcbf643d12472ae9.ssl.cf
 
 Install [**Unison**](https://www.cis.upenn.edu/~bcpierce/unison/) to enable the real-time file syncing feature of Stolos.
 
-To do this run the following command in your terminal:
+To do this run the following commands in your terminal:
 
 ```
 wget https://cf979153cd14525475d4-f860d1dda29fa1b9bcbf643d12472ae9.ssl.cf1.rackcdn.com/unison/unison-2.48.3-4.02 -O /usr/local/bin/unison
+chmod +x /usr/local/bin/unison
 ```
 
 ### 2. Install Stolos
