@@ -8,7 +8,7 @@ Create a new Stolos project.
 ## Usage
 
 ```
-Usage: stolos projects create [OPTIONS] STACK PROJECT_DIRECTORY
+Usage: stolos projects create [OPTIONS] PROJECT_DIRECTORY
 
   Create a new Stolos project
 
@@ -19,6 +19,8 @@ Options:
                                   services, defaults to false
   --stolos-url TEXT               The URL of the Stolos server to use, if not
                                   the default
+  --stack TEXT                    The stack to use for this project, defaults
+                                  to no stack
   --help                          Show this message and exit.
 ```
 
