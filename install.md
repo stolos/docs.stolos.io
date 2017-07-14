@@ -21,7 +21,7 @@ Install [**Unison**](https://www.cis.upenn.edu/~bcpierce/unison/) to enable the 
 If you do not have Homebrew installed on your machine, run the following command in your terminal to install it
 
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 To install Unison via Homebrew run the following command in your terminal:
