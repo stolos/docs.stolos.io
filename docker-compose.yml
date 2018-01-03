@@ -3,3 +3,10 @@ version: '3.4'
 services:
   web:
     image: sourcelair/docs.stolos.io
+    networks:
+      ceryx:
+        aliases:
+          - ${STOLOS_DOCS_NAME:-stolos-docs}
+networks:
+  ceryx:
+    external: true

@@ -22,7 +22,7 @@ collections:
     permalink: /guides/:path/
     output: true
 
-gems:
+plugins:
   - jekyll-redirect-from
 
 lsi: false
