@@ -6,7 +6,7 @@ services:
     networks:
       ceryx:
         aliases:
-          - ${STOLOS_DOCS_NAME:-stolos-docs}
+          - ${STOLOS_DOCS_NAME:-docs-stolos-io}
 networks:
   ceryx:
     external: true
